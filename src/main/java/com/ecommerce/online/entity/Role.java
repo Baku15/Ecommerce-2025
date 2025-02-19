@@ -1,11 +1,9 @@
 package com.ecommerce.online.entity;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.*;
 
+@Entity
 @Setter
 @Getter
 @Table(name = "roles")

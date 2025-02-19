@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @ToString
 
-public class Persona {
+public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String firstName;
